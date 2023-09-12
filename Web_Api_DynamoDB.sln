@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web_Api_DynamoDB", "Web_Api_DynamoDB\Web_Api_DynamoDB.csproj", "{AB567DCD-2B0F-48FD-A2AC-65491A5C2BF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.SNS", "API.SNS\API.SNS.csproj", "{7ADCF733-9775-46F7-918F-839184CBAC88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.SQS", "API.SQS\API.SQS.csproj", "{9D19D51C-BD86-45B8-823F-76616B18E40A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB567DCD-2B0F-48FD-A2AC-65491A5C2BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB567DCD-2B0F-48FD-A2AC-65491A5C2BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB567DCD-2B0F-48FD-A2AC-65491A5C2BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB567DCD-2B0F-48FD-A2AC-65491A5C2BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ADCF733-9775-46F7-918F-839184CBAC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADCF733-9775-46F7-918F-839184CBAC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADCF733-9775-46F7-918F-839184CBAC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADCF733-9775-46F7-918F-839184CBAC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D19D51C-BD86-45B8-823F-76616B18E40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D19D51C-BD86-45B8-823F-76616B18E40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D19D51C-BD86-45B8-823F-76616B18E40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D19D51C-BD86-45B8-823F-76616B18E40A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A2B8A1A-7EBD-4A28-8347-87AC3BD3EF1F}
+	EndGlobalSection
+EndGlobal
